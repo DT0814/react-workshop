@@ -27,10 +27,12 @@ class App extends Component {
   render() {
     return (
       <div className="app-body">
-        <Input className={"app-input"} inputText={this.state.firstName}
-               changed={this.setFirstName}/><label>first</label>
-        <Input className={"app-input"} inputText={this.state.lastName} changed={this.setLastName}/><label>last</label>
-        <Button className={"app-button"} buttonText={"hello"} clickButton={this.clickButton}/>
+        <form>
+          <Input className={"app-input"} inputText={this.state.firstName}
+                 changed={this.setFirstName}/><label>first</label>
+          <Input className={"app-input"} inputText={this.state.lastName} changed={this.setLastName}/><label>last</label>
+          <Button className={"app-button"} buttonText={"hello"} clickButton={this.clickButton}/>
+        </form>
       </div>
     );
   }
