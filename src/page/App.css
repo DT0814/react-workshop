@@ -1,0 +1,9 @@
+.app-body {
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.app-input {
+    float: left;
+}
