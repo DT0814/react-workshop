@@ -10,13 +10,11 @@ class App extends Component {
   };
   setFirstName = (firstName: String) => {
     this.setState({
-      ...this.state,
       firstName
     })
   };
   setLastName = (lastName: String) => {
     this.setState({
-      ...this.state,
       lastName
     })
   };
